@@ -1,3 +1,3 @@
 #!/bin/bash
 
-tmux source -n -v tmux/tmux.conf
+tmux start-server \; source -n -v tmux/tmux.conf
